@@ -1,0 +1,38 @@
+/* ScoreTable.css */
+.score-table-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .score-table th, .score-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .score-table th {
+    background-color: #50ab8b;
+    color: #e9f2ef;
+  }
+  
+  .score-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: white;
+  }
+  
+  .score-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .score-table td {
+    height: 40px;
+    background-color: #e3e8e7;
+  }
+  

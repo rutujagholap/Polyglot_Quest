@@ -1,0 +1,93 @@
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.learn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .btn.start-game {
+    background-color: green;
+    color: white;
+  }
+  
+  .btn.check-score {
+    background-color: red;
+    color: white;
+  }
+  
+  .btn.quit {
+    background-color: purple;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .arrow-container {
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black; /* Adjust size as necessary */
+    position: absolute;
+    left: 50%; /* Adjust position as necessary */
+    transform: translateX(-50%);
+  }
+  
+  .mcq-quiz-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn.mcq,
+  .btn.quiz {
+    background-color: #ddd; /* Placeholder color */
+    color: black;
+    font-size: 20px;
+    padding: 20px 40px;
+  }
+  
+  .fr{
+    background-color:pink; /* Light grey background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-left: 500px;
+    height: 330px;
+    margin-top: 200px;
+  }
+  /* Add more styles as needed to match your hand-drawn design */
+  
